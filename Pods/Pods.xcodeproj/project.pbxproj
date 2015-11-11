@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1596DDDE396EF1F0B472D0FB3975734C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D64AB8C0A1E815C07C6F968F76F7E559 /* QuartzCore.framework */; };
+		1EAC826C5E22989DFB07A8892C3E9E79 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AB254A0FF9C0E1ECCCC3CA36E6AC016 /* CoreGraphics.framework */; };
+		415EA93E3C956C94C3006C8EB5868650 /* Pods-Buddhism-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF355115C51A1E9A51254D267A79EBA5 /* Pods-Buddhism-dummy.m */; };
+		54AC73B07764AA0E73472FDE2FE6A5AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ECA5F82C19F792E4F5146A01C56514 /* Foundation.framework */; };
+		688D1E2542D66C040E26D3715473D4AA /* EECircularMusicPlayerDACircularProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = D636DAC0DC8B901B9D532CBBD35DD26D /* EECircularMusicPlayerDACircularProgressView.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76E39CDDDBCC91C0CFEAC37468D21B2E /* EECircularMusicPlayerControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A22E790053C1EDB84D1882D336C3A05 /* EECircularMusicPlayerControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8DEB8DD2B9B7C33CF17E770E64E5432D /* EECircularMusicPlayerControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6DD09FFE80D6D5413B0A98B9C8FA84 /* EECircularMusicPlayerControl-dummy.m */; };
+		A24CD3D278A5CB0A4B1A909DCD8974CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37ECA5F82C19F792E4F5146A01C56514 /* Foundation.framework */; };
+		A9E4A14E7E70EC2231CA189EED0D0FA4 /* EECircularMusicPlayerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DC2A1BE55E5E0D7EE60C6704349026A /* EECircularMusicPlayerControl.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B6A554364DCF01F5A560365E146B0981 /* EECircularMusicPlayerDACircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2BA701B9C45359E034012120EC9E20B /* EECircularMusicPlayerDACircularProgressView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3FE0F14ED59B95C41CB46360685C04B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D5B77CA34A1A20DB31DA6A1617E7E91;
+			remoteInfo = EECircularMusicPlayerControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1031EA459DCBD5E0F9F99DDDC1E2F286 /* libEECircularMusicPlayerControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEECircularMusicPlayerControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		36D8E5672E38D091E64D3944AE2616A1 /* EECircularMusicPlayerControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EECircularMusicPlayerControl-prefix.pch"; sourceTree = "<group>"; };
+		37ECA5F82C19F792E4F5146A01C56514 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		717728A21F55CAF4A669B9A6D0E870AC /* Pods-Buddhism-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Buddhism-resources.sh"; sourceTree = "<group>"; };
+		74E44E74A7ABE1E115B4AA0E04C34540 /* libPods-Buddhism.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Buddhism.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A22E790053C1EDB84D1882D336C3A05 /* EECircularMusicPlayerControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EECircularMusicPlayerControl.h; path = EECircularMusicPlayerControl/EECircularMusicPlayerControl.h; sourceTree = "<group>"; };
+		9AB254A0FF9C0E1ECCCC3CA36E6AC016 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		9DC2A1BE55E5E0D7EE60C6704349026A /* EECircularMusicPlayerControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EECircularMusicPlayerControl.m; path = EECircularMusicPlayerControl/EECircularMusicPlayerControl.m; sourceTree = "<group>"; };
+		A0351E114A7E90C8E423779264244E52 /* Pods-Buddhism-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Buddhism-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A7365336D3C4F0668937AFF064B4C59A /* Pods-Buddhism.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Buddhism.debug.xcconfig"; sourceTree = "<group>"; };
+		ADBB28791579CC1B0B4A97836DA85897 /* Pods-Buddhism-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Buddhism-frameworks.sh"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF6DD09FFE80D6D5413B0A98B9C8FA84 /* EECircularMusicPlayerControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EECircularMusicPlayerControl-dummy.m"; sourceTree = "<group>"; };
+		C5AC3953967633400752C6BC4926E00B /* EECircularMusicPlayerControl.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EECircularMusicPlayerControl.xcconfig; sourceTree = "<group>"; };
+		D636DAC0DC8B901B9D532CBBD35DD26D /* EECircularMusicPlayerDACircularProgressView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EECircularMusicPlayerDACircularProgressView.h; path = EECircularMusicPlayerControl/DACircularProgress/EECircularMusicPlayerDACircularProgressView.h; sourceTree = "<group>"; };
+		D64AB8C0A1E815C07C6F968F76F7E559 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		DB1796FC6C70B786CF3A5170E1BFED07 /* Pods-Buddhism-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Buddhism-acknowledgements.plist"; sourceTree = "<group>"; };
+		E99D7952CA720F620402C5964E45B58F /* Pods-Buddhism.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Buddhism.release.xcconfig"; sourceTree = "<group>"; };
+		EF355115C51A1E9A51254D267A79EBA5 /* Pods-Buddhism-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Buddhism-dummy.m"; sourceTree = "<group>"; };
+		F2BA701B9C45359E034012120EC9E20B /* EECircularMusicPlayerDACircularProgressView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EECircularMusicPlayerDACircularProgressView.m; path = EECircularMusicPlayerControl/DACircularProgress/EECircularMusicPlayerDACircularProgressView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C6AA8E7C30C0C9FA39853508AD97B6F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EAC826C5E22989DFB07A8892C3E9E79 /* CoreGraphics.framework in Frameworks */,
+				54AC73B07764AA0E73472FDE2FE6A5AB /* Foundation.framework in Frameworks */,
+				1596DDDE396EF1F0B472D0FB3975734C /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9B9E88F1E73A01E2FA9DA385F5DF7E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A24CD3D278A5CB0A4B1A909DCD8974CD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D89D42E51D160380C262AB055B889685 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		206B892D94DBC0BEA10ECD2AA6FF4DB3 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9DB0604CFA546D8F777B32AD594A016 /* Pods-Buddhism */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		76067BEC6B5003F36A9C5C2E8DCB8740 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98E17412888836310F75563ED30C1DA5 /* EECircularMusicPlayerControl */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				76067BEC6B5003F36A9C5C2E8DCB8740 /* Pods */,
+				E35E452FB13096ACA57993586264058B /* Products */,
+				206B892D94DBC0BEA10ECD2AA6FF4DB3 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98E17412888836310F75563ED30C1DA5 /* EECircularMusicPlayerControl */ = {
+			isa = PBXGroup;
+			children = (
+				8A22E790053C1EDB84D1882D336C3A05 /* EECircularMusicPlayerControl.h */,
+				9DC2A1BE55E5E0D7EE60C6704349026A /* EECircularMusicPlayerControl.m */,
+				D636DAC0DC8B901B9D532CBBD35DD26D /* EECircularMusicPlayerDACircularProgressView.h */,
+				F2BA701B9C45359E034012120EC9E20B /* EECircularMusicPlayerDACircularProgressView.m */,
+				F0FC109077D843395D2B465DD4954F3E /* Support Files */,
+			);
+			path = EECircularMusicPlayerControl;
+			sourceTree = "<group>";
+		};
+		D89D42E51D160380C262AB055B889685 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				9AB254A0FF9C0E1ECCCC3CA36E6AC016 /* CoreGraphics.framework */,
+				37ECA5F82C19F792E4F5146A01C56514 /* Foundation.framework */,
+				D64AB8C0A1E815C07C6F968F76F7E559 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E35E452FB13096ACA57993586264058B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1031EA459DCBD5E0F9F99DDDC1E2F286 /* libEECircularMusicPlayerControl.a */,
+				74E44E74A7ABE1E115B4AA0E04C34540 /* libPods-Buddhism.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9DB0604CFA546D8F777B32AD594A016 /* Pods-Buddhism */ = {
+			isa = PBXGroup;
+			children = (
+				A0351E114A7E90C8E423779264244E52 /* Pods-Buddhism-acknowledgements.markdown */,
+				DB1796FC6C70B786CF3A5170E1BFED07 /* Pods-Buddhism-acknowledgements.plist */,
+				EF355115C51A1E9A51254D267A79EBA5 /* Pods-Buddhism-dummy.m */,
+				ADBB28791579CC1B0B4A97836DA85897 /* Pods-Buddhism-frameworks.sh */,
+				717728A21F55CAF4A669B9A6D0E870AC /* Pods-Buddhism-resources.sh */,
+				A7365336D3C4F0668937AFF064B4C59A /* Pods-Buddhism.debug.xcconfig */,
+				E99D7952CA720F620402C5964E45B58F /* Pods-Buddhism.release.xcconfig */,
+			);
+			name = "Pods-Buddhism";
+			path = "Target Support Files/Pods-Buddhism";
+			sourceTree = "<group>";
+		};
+		F0FC109077D843395D2B465DD4954F3E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5AC3953967633400752C6BC4926E00B /* EECircularMusicPlayerControl.xcconfig */,
+				BF6DD09FFE80D6D5413B0A98B9C8FA84 /* EECircularMusicPlayerControl-dummy.m */,
+				36D8E5672E38D091E64D3944AE2616A1 /* EECircularMusicPlayerControl-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EECircularMusicPlayerControl";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A4B2A68AA91C8DF1897F4C7B003F6EAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E39CDDDBCC91C0CFEAC37468D21B2E /* EECircularMusicPlayerControl.h in Headers */,
+				688D1E2542D66C040E26D3715473D4AA /* EECircularMusicPlayerDACircularProgressView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F40DDA49419C3819395B67FD38B4573 /* Pods-Buddhism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1AF4AA31DDE045E1C84D5C21CE3C47D /* Build configuration list for PBXNativeTarget "Pods-Buddhism" */;
+			buildPhases = (
+				1DC954A64DEA9A4DBFDB28B62027D1A6 /* Sources */,
+				D9B9E88F1E73A01E2FA9DA385F5DF7E2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B29810139C92323AC0C076461C347892 /* PBXTargetDependency */,
+			);
+			name = "Pods-Buddhism";
+			productName = "Pods-Buddhism";
+			productReference = 74E44E74A7ABE1E115B4AA0E04C34540 /* libPods-Buddhism.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		3D5B77CA34A1A20DB31DA6A1617E7E91 /* EECircularMusicPlayerControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D585CB3E868A2B0BBF132CC4A21A4FFB /* Build configuration list for PBXNativeTarget "EECircularMusicPlayerControl" */;
+			buildPhases = (
+				16BF37AD2B51C54B4EEA6B84DA2130F4 /* Sources */,
+				4C6AA8E7C30C0C9FA39853508AD97B6F /* Frameworks */,
+				A4B2A68AA91C8DF1897F4C7B003F6EAB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EECircularMusicPlayerControl;
+			productName = EECircularMusicPlayerControl;
+			productReference = 1031EA459DCBD5E0F9F99DDDC1E2F286 /* libEECircularMusicPlayerControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = E35E452FB13096ACA57993586264058B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D5B77CA34A1A20DB31DA6A1617E7E91 /* EECircularMusicPlayerControl */,
+				0F40DDA49419C3819395B67FD38B4573 /* Pods-Buddhism */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16BF37AD2B51C54B4EEA6B84DA2130F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DEB8DD2B9B7C33CF17E770E64E5432D /* EECircularMusicPlayerControl-dummy.m in Sources */,
+				A9E4A14E7E70EC2231CA189EED0D0FA4 /* EECircularMusicPlayerControl.m in Sources */,
+				B6A554364DCF01F5A560365E146B0981 /* EECircularMusicPlayerDACircularProgressView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1DC954A64DEA9A4DBFDB28B62027D1A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				415EA93E3C956C94C3006C8EB5868650 /* Pods-Buddhism-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B29810139C92323AC0C076461C347892 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EECircularMusicPlayerControl;
+			target = 3D5B77CA34A1A20DB31DA6A1617E7E91 /* EECircularMusicPlayerControl */;
+			targetProxy = 3FE0F14ED59B95C41CB46360685C04B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		434C6F5B7463FC8CA37266C1563C7F81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E99D7952CA720F620402C5964E45B58F /* Pods-Buddhism.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		552254A3C3ADBDF4F463C66CD0D76A00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5AC3953967633400752C6BC4926E00B /* EECircularMusicPlayerControl.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EECircularMusicPlayerControl/EECircularMusicPlayerControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		94BAA47F98EC67BB80BED47C295F054E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5AC3953967633400752C6BC4926E00B /* EECircularMusicPlayerControl.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EECircularMusicPlayerControl/EECircularMusicPlayerControl-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E43846B588E1892F3093F3B7082B6DFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E7FAAC92DE712674D75D2732658462D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7365336D3C4F0668937AFF064B4C59A /* Pods-Buddhism.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C074F63C9EE7CB4D8C618390A32CEC35 /* Debug */,
+				E43846B588E1892F3093F3B7082B6DFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1AF4AA31DDE045E1C84D5C21CE3C47D /* Build configuration list for PBXNativeTarget "Pods-Buddhism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7FAAC92DE712674D75D2732658462D0 /* Debug */,
+				434C6F5B7463FC8CA37266C1563C7F81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D585CB3E868A2B0BBF132CC4A21A4FFB /* Build configuration list for PBXNativeTarget "EECircularMusicPlayerControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552254A3C3ADBDF4F463C66CD0D76A00 /* Debug */,
+				94BAA47F98EC67BB80BED47C295F054E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,10 @@
+PODS:
+  - EECircularMusicPlayerControl (0.2.1)
+
+DEPENDENCIES:
+  - EECircularMusicPlayerControl (~> 0.2.1)
+
+SPEC CHECKSUMS:
+  EECircularMusicPlayerControl: dd1e357238d0e08fe7ffeb7c0d1941ac93def649
+
+COCOAPODS: 0.39.0
